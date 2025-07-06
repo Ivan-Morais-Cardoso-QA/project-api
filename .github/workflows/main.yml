@@ -18,11 +18,20 @@ jobs:
       - name: 🧰 Configurar Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.4.4' # ou a versão do seu projeto
+          ruby-version: '3.4.4' # ajuste conforme sua versão
           bundler-cache: true
 
       - name: 📦 Instalar dependências
         run: bundle install
 
-      - name: ✅ Executar testes Cucumber
-        run: bundle exec cucumber
+      - name: 🗂️ Criar diretório para relatórios
+        run: mkdir reports
+
+      - name: ✅ Executar testes Cucumber com relatório HTML
+        run: bundle exec cucumber --format html --out reports/report.html
+
+      - name: 📤 Salvar artefato do relatório
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-report
+          path: reports/report.html
