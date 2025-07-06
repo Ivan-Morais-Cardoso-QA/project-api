@@ -1,0 +1,8 @@
+default: -p prd -p html
+
+# Configuração de reports
+html: --format pretty --format html --out=reports/report.html
+
+# Ambientes para execução
+prd: ENVIRONMENT="prd"
+local: ENVIRONMENT="local"

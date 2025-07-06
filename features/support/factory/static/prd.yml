@@ -1,0 +1,25 @@
+todas_racas:
+  mastiff: ['bull', 'english', 'indian', 'tibetan']
+  bulldog: ['boston', 'english', 'french']
+  australian: ['kelpie', 'shepherd']
+  bakharwal: ['indian']
+  hound: ['afghan', 'basset', 'blood', 'english', 'ibizan', 'plott', 'walker' ]
+
+acessibilidade:
+  tempo_requisicao: 2
+
+urls:
+  url_base: 'https://images.dog.ceo/'
+  url_imagem_aleatoria: https://dog.ceo/api/breeds/image/random
+
+json_informacoes:
+  content_type: 'application/json'
+
+response:
+  sucess:
+    message: 'success'
+    code: 200 
+  error:
+    message: 'Breed not found (master breed does not exist)'
+    status: 'error'
+    code: 404
