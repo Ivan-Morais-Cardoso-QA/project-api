@@ -4,6 +4,29 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 
 ---
 
+🧪 Executar testes via GitHub Actions
+Os testes são executados automaticamente a cada push ou pull request na branch main. Também é possível rodar manualmente e baixar o relatório:
+
+▶️ Executar manualmente
+Acesse a aba Actions
+
+Clique em “CI - Testes Automatizados”
+
+No canto superior direito, clique em “Run workflow”
+
+Escolha a branch main e clique novamente em Run workflow
+
+📥 Baixar o relatório de testes
+Após a execução, clique no job em execução ou já concluído
+
+Vá até a etapa "Upload artifact"
+
+Clique em cucumber-report.zip
+
+Extraia e abra o arquivo report.html no navegador
+
+
+
 ## 🚀 Funcionalidades testadas e relatório com última execução
 
 - ✅ Listar todas as raças de cachorros (`/breeds/list/all`) ![image](https://github.com/user-attachments/assets/a125651f-cbc8-49e5-b9f0-2c499101d1fa)
