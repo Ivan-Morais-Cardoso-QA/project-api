@@ -4,13 +4,13 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 
 ---
 
-## 🚀 Funcionalidades testadas e relatório com ultima execução
+## 🚀 Funcionalidades testadas e relatório com última execução
 
 - ✅ Listar todas as raças de cachorros (`/breeds/list/all`) ![image](https://github.com/user-attachments/assets/a125651f-cbc8-49e5-b9f0-2c499101d1fa)
 
 - ✅ Buscar imagens por raça (`/breed/{raça}/images`) ![image](https://github.com/user-attachments/assets/95087899-443c-4cec-9b0b-666b3bb76b03)
-- 
-- ✅ Obter imagem aleatória (`/breeds/image/random`) ![image](https://github.com/user-attachments/assets/9bacf96c-77b1-4e83-8719-4212eb124dd7)
+  
+- ✅ Obter imagem aleatória (`/breeds/image/random`) ![image](https://github.com/user-attachments/assets/d3b87d17-681a-41c4-8897-d2cc33e6489c)
 
 
 ---
