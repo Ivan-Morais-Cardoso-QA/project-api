@@ -24,6 +24,12 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 
 ---
 
+## 📁 Estrutura do Projeto
+![image](https://github.com/user-attachments/assets/2ca0bc81-eb99-42ea-9f5f-c50e5fdf52d1)
+
+---
+
+
 ## 🛠️ Pré-requisitos
 
 - Ruby 2.7 ou superior
