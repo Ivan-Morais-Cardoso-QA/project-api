@@ -4,36 +4,13 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 
 ---
 
-## 🧪 Execute os testes via GitHub Actions
-Os testes são executados automaticamente a cada push ou pull request na branch main. Também é possível rodar manualmente e baixar o relatório:
-
-▶️Para executar manualmente acesse a aba Actions
-
-Clique em “CI - Testes Automatizados”
-
-No canto superior direito, clique em “Run workflow”
-
-Escolha a branch main e clique novamente em Run workflow
-
-📥 Baixar o relatório de testes
-Após a execução, clique no job em execução ou já concluído
-
-Vá até a etapa "Upload artifact"
-
-Clique em cucumber-report.zip
-
-Extraia e abra o arquivo report.html no navegador
-
-
-
-## 🚀 Funcionalidades testadas e relatório com última execução
+## 🚀 Descrição dos cenários testados e relatórios visuais contendo resultados da última execução
 
 - ✅ Listar todas as raças de cachorros (`/breeds/list/all`) ![image](https://github.com/user-attachments/assets/a125651f-cbc8-49e5-b9f0-2c499101d1fa)
 
 - ✅ Buscar imagens por raça (`/breed/{raça}/images`) ![image](https://github.com/user-attachments/assets/95087899-443c-4cec-9b0b-666b3bb76b03)
   
-- ✅ Obter imagem aleatória (`/breeds/image/random`) ![image](https://github.com/user-attachments/assets/d3b87d17-681a-41c4-8897-d2cc33e6489c)
-
+- ✅ Obter imagem  de raça aleatória (`/breeds/image/random`) ![image](https://github.com/user-attachments/assets/d3b87d17-681a-41c4-8897-d2cc33e6489c)
 
 ---
 
@@ -68,6 +45,18 @@ Extraia e abra o arquivo report.html no navegador
     bundle exec cucumber # executa todos os testes
     bundle exec cucumber --tags @by_breed # executa os testes por tags
 
+## 🧪 Execute os testes via GitHub Actions
+   Os testes são executados automaticamente a cada push ou pull request na branch main. Também é possível rodar manualmente e baixar o relatório:
+   Para executar manualmente acesse a aba Actions
+   Clique em “CI - Testes Automatizados”
+   No canto superior direito, clique em “Run workflow”
+   Escolha a branch main e clique novamente em Run workflow
+   Baixar o relatório de testes
+   Após a execução, clique no job em execução ou já concluído
+   Vá até a etapa "Upload artifact"
+   Clique em cucumber-report.zip
+   Extraia e abra o arquivo report.html no navegador
+
 ## 🔍 Critérios validados nos testes
     - Status HTTP da API (200 ou erro esperado)
     - Estrutura do JSON (chaves message, status, code)
@@ -78,9 +67,4 @@ Extraia e abra o arquivo report.html no navegador
     - Aleatoriedade no endpoint /breeds/image/random
     - Tempo de resposta dentro do limite definido
     - Mensagens de erro apropriadas em casos inválidos
-
-
-
-
-
 
