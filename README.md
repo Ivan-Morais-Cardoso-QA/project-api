@@ -64,7 +64,7 @@ Extraia e abra o arquivo report.html no navegador
 2. Instale as dependências:
    bundle install
 
-## ▶️ Execução
+## ▶️ Execução local
     bundle exec cucumber # executa todos os testes
     bundle exec cucumber --tags @by_breed # executa os testes por tags
 
