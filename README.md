@@ -7,8 +7,7 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 ## 🧪 Execute os testes via GitHub Actions
 Os testes são executados automaticamente a cada push ou pull request na branch main. Também é possível rodar manualmente e baixar o relatório:
 
-▶️ Executar manualmente
-Acesse a aba Actions
+▶️Para executar manualmente acesse a aba Actions
 
 Clique em “CI - Testes Automatizados”
 
