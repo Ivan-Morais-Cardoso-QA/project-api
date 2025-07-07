@@ -4,11 +4,14 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 
 ---
 
-## 🚀 Funcionalidades testadas
+## 🚀 Funcionalidades testadas e relatório com ultima execução
 
-- ✅ Listar todas as raças de cachorros (`/breeds/list/all`)
-- ✅ Buscar imagens por raça (`/breed/{raça}/images`)
-- ✅ Obter imagem aleatória (`/breeds/image/random`)
+- ✅ Listar todas as raças de cachorros (`/breeds/list/all`) ![image](https://github.com/user-attachments/assets/a125651f-cbc8-49e5-b9f0-2c499101d1fa)
+
+- ✅ Buscar imagens por raça (`/breed/{raça}/images`) ![image](https://github.com/user-attachments/assets/95087899-443c-4cec-9b0b-666b3bb76b03)
+- 
+- ✅ Obter imagem aleatória (`/breeds/image/random`) ![image](https://github.com/user-attachments/assets/9bacf96c-77b1-4e83-8719-4212eb124dd7)
+
 
 ---
 
@@ -21,19 +24,6 @@ Este projeto automatiza testes de integração para os endpoints da [Dog CEO API
 - YAML – dados estáticos organizados por ambiente
 
 ---
-
-## 📁 Estrutura do projeto
-project-api/
-├── features/ # arquivos Gherkin (.feature)
-│ ├── step_definitions/ # passos dos testes
-│ └── support/ # hooks e helpers globais
-├── lib/
-│ └── factory/ # Factory::Static e Dynamic
-├── static/ # dados de teste estático em YAML
-│ └── dev.yml
-├── .rubocop.yml # estilo de código Ruby
-├── cucumber.yml # configuração de execução
-└── README.md
 
 ## 🛠️ Pré-requisitos
 
